@@ -1,0 +1,3 @@
+script for uploading snapshots to minio
+
+documentation coming soon...
