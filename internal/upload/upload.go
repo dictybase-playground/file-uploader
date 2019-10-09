@@ -2,6 +2,6 @@ package upload
 
 // Uploader is an interface for uploading files
 type Uploader interface {
-	// UploadSnapshots uploads to online storage
-	UploadSnapshots() error
+	// UploadFolder uploads files inside a folder to Minio
+	UploadFolder() error
 }

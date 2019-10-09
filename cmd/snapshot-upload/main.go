@@ -10,8 +10,8 @@ import (
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "snapshot-upload"
-	app.Usage = "cli for uploading frontend snapshots to storage"
+	app.Name = "file-uploader"
+	app.Usage = "cli for uploading files to online storage"
 	app.Version = "1.0.0"
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
@@ -28,8 +28,8 @@ func main() {
 	app.Commands = []cli.Command{
 		{
 			Name:   "minio",
-			Usage:  "uploads snapshots to minio s3 storage",
-			Action: upload.UploadSnapshotsMinio,
+			Usage:  "uploads files to minio s3 storage",
+			Action: upload.UploadFilesMinio,
 			Before: validate.ValidateMinioArgs,
 			Flags: []cli.Flag{
 				cli.StringFlag{
@@ -51,7 +51,6 @@ func main() {
 				cli.StringFlag{
 					Name:  "minio-bucket",
 					Usage: "minio bucket to upload to",
-					Value: "snapshots",
 				},
 				cli.StringFlag{
 					Name:  "folder, f",
