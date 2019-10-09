@@ -1,4 +1,4 @@
-module github.com/dictybase-playground/snapshot-upload
+module github.com/dictybase-playground/file-uploader
 
 require (
 	github.com/minio/minio-go/v6 v6.0.38

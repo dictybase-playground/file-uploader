@@ -1,8 +1,8 @@
 package upload
 
 import (
-	log "github.com/dictybase-playground/snapshot-upload/internal/logger"
-	m "github.com/dictybase-playground/snapshot-upload/internal/upload/minio"
+	log "github.com/dictybase-playground/file-uploader/internal/logger"
+	m "github.com/dictybase-playground/file-uploader/internal/upload/minio"
 	"github.com/minio/minio-go/v6"
 	"github.com/urfave/cli"
 )

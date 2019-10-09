@@ -1,3 +1,3 @@
-script for uploading snapshots to minio
+script for uploading files to online storage
 
 documentation coming soon...

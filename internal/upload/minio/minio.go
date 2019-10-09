@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	upload "github.com/dictybase-playground/snapshot-upload/internal/upload"
+	upload "github.com/dictybase-playground/file-uploader/internal/upload"
 	"github.com/minio/minio-go/v6"
 	"github.com/sirupsen/logrus"
 )

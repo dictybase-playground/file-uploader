@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/dictybase-playground/snapshot-upload/internal/app/upload"
-	"github.com/dictybase-playground/snapshot-upload/internal/app/validate"
+	"github.com/dictybase-playground/file-uploader/internal/app/upload"
+	"github.com/dictybase-playground/file-uploader/internal/app/validate"
 	cli "github.com/urfave/cli"
 )
 
